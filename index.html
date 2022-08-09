@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gussing game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-title">
+               <h1>Gussing Number</h1>
+            </div>
+            <div class="card-body">
+                <form>
+                <div class="form-fild">
+                   
+                <label for="gussingNumber">guss a number betwin 1-5:</label>
+                <input type="number" id="gussingNumber" min="1" max="5" required>
+            
+                </div>
+                <div class="button">
+                    <button id="check" class="btn" type="submit">check result</button>
+                </div>
+            </form>
+            <p class="resultText"></p>
+            <p class="remainingAttemps"></p>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
